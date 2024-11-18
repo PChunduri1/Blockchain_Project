@@ -4,14 +4,13 @@
 A secure and decentralized solution for identity verification using Ethereum smart contracts and IPFS. This DApp allows users to register and verify their identities securely, ensuring data privacy and integrity on the blockchain.
 
 ## Table of Contents
-- [About the Project](#about the project)
+- [About the Project](#about-the-project)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-
--[Usage](#usage)
+- [Usage](#usage)
 ## About the Project
 This Decentralized Identity Verification DApp aims to provide a blockchain-based platform for users to securely register and verify their identities. The system leverages Ethereum smart contracts for identity management and IPFS for decentralized file storage, ensuring that user data remains private, tamper-proof, and verifiable.
 ## Features
@@ -28,7 +27,7 @@ This Decentralized Identity Verification DApp aims to provide a blockchain-based
 - **Data Storage**: IPFS, Pinata API
 - **Wallet Integration**: MetaMask
 
-Getting Started
+## Getting Started
 ### Prerequisites
 Make sure you have the following installed on your machine:
 - Node.js (v14 or later)

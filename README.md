@@ -41,7 +41,7 @@ Make sure you have the following installed on your machine:
 Clone the repository using the following commands:
 ```bash
 git clone https://github.com/PChunduri1/Blockchain-Project.git
-cd Blockchain_Project
+cd Blockchain-Project
 ```
 ### Install Dependencies
 Navigate to your project directory and install the required npm packages:
@@ -51,15 +51,16 @@ npm install
 ```
 
 ### Deploy Your Smart Contract
-Run the following command to deploy your ERC-20 token smart contract:
+Compile and deploy the Solidity contracts using Hardhat:
 
 ```bash
+npx hardhat compile
 npx hardhat run scripts/deploy.js --network localhost
 ```
 Ensure that the deployment is successful and take note of the contract address printed in the console.
 
 ### Update the DApp Configuration
-In your app.js file, update the following variables with your deployed contract address and ABI:
+In your app.js file, update the following variables with your deployed contract address, ABI and Pinata keys:
 
 ```javascript
 const contractAddress = "YOUR_CONTRACT_ADDRESS_HERE"; // Replace with your contract address
@@ -71,7 +72,7 @@ REACT_APP_INFURA_PROJECT_ID=your-infura-project-id
 ### Run the Application
 
 ```bash
-npx start
+npm start
 ```
 
 ## Usage

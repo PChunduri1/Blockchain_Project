@@ -40,8 +40,8 @@ Make sure you have the following installed on your machine:
 ### Clone the Repository
 Clone the repository using the following commands:
 ```bash
-git clone https://github.com/PChunduri1/Blockchain-Project.git
-cd Blockchain-Project
+git clone https://github.com/PChunduri1/Blockchain_Project.git
+cd Blockchain_Project
 ```
 ### Install Dependencies
 Navigate to your project directory and install the required npm packages:

@@ -10,6 +10,7 @@ A secure and decentralized solution for identity verification using Ethereum sma
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+
 -[Usage](#usage)
 ## About the Project
 This Decentralized Identity Verification DApp aims to provide a blockchain-based platform for users to securely register and verify their identities. The system leverages Ethereum smart contracts for identity management and IPFS for decentralized file storage, ensuring that user data remains private, tamper-proof, and verifiable.
